@@ -1,0 +1,47 @@
+@font-face {
+    font-family: relogio;
+    src: url('../imagens/digital-7.ttf');
+}
+body {
+  background: url('../imagens/johannes-plenio-DKix6Un55mw-unsplash.jpg');
+  background-size: cover;
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 150px;
+  color: aqua; 
+  font-family: relogio, sans-serif;
+  transition: background 0.4s, color 0.4s;
+}
+
+.central {
+    background: rgba(255, 255, 255, 0.167);
+    width: fit-content;
+    border-radius: 40px;
+    display: flex;
+    flex-direction: row;
+    backdrop-filter: blur(20px);
+    padding: 0 20px;
+    gap: 10px;
+}
+
+.data {
+  margin-top: 20px;
+  font-size: 50px;
+  background: rgba(255, 255, 255, 0.167);
+  padding: 5px 20px;
+  border-radius: 20px;
+  backdrop-filter: blur(15px);
+}
+
+.localizacao {
+  margin-top: 20px;
+  font-size: 35px;
+  background: rgba(255, 255, 255, 0.167);
+  padding: 5px 20px;
+  border-radius: 20px;
+  backdrop-filter: blur(15px);
+}
